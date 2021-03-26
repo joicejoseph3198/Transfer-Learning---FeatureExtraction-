@@ -1,0 +1,2 @@
+# Transfer Learning - FeatureExtraction 
+ Treating networks as feature extractors, forward propagating images until a given layer, and then taking these activations and treating them as feature vectors. Using these feature vectors, we train an off-the-shelf machine learning model such a Linear SVM, Logistic Regression classifier, or Random Forest on top of these features to obtain a classifier that recognizes new classes of images.
